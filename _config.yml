@@ -11,7 +11,7 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: Griffith Library Long Lesson Template
+title: Long Lesson Template
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/ (or look in "_includes/bootstrap-icons")
@@ -43,7 +43,7 @@ content_license_link: https://creativecommons.org/licenses/by-sa/4.0/
 #
 # header-background: 
 # header-text-color: 
-# breadcrumbs-background: 
+breadcrumbs-background: "#E30918"
 # breadcrumbs-text-color: 
 # active-nav-color: 
 # link-color:
