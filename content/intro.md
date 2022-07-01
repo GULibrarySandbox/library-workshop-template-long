@@ -7,6 +7,10 @@ title: Introduction
 
 Place the topic of your workshop here, for example: LimeSurvey, Digital Dexterity, Copyright for researchers, etc.
 
+## Audience
+
+This workshop is aimed at researchers and academics in the field of biostatistics.
+
 ## Learning objectives
 
 | Once you have completed this workshop you should be able to: |
@@ -15,10 +19,6 @@ Place the topic of your workshop here, for example: LimeSurvey, Digital Dexterit
 | Identify the most common sources of GLAM archival text  |
 | Verb a noun with the following limiting words  |
 {:.table}
-
-## Audience
-
-This workshop is aimed at researchers and academics in the field of biostatistics.
 
 ## Prerequisites
 
