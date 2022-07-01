@@ -47,7 +47,7 @@ This workshop is aimed at researchers and academics in the field of biostatistic
 {:.table}
 
 {% endcapture %}
-{% include card.html header="Assumed knowledge" text=text %}
+{% include card.html header="Assumed knowledge" text=assumedknowledge %}
 
 ----
 
