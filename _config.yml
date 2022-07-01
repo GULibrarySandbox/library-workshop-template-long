@@ -11,21 +11,21 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: Learn-Static Lesson Template
+title: Griffith Library Long Lesson Template
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/ (or look in "_includes/bootstrap-icons")
 # some options: code-slash file-code gear tools lightblub book bookmark-star
-title-icon: code-slash
+title-icon: book
 # description appears in sidebar footer
-description: "Create a lesson website with markdown"
+description: "A template for longer lessons with more than 5 sections"
 # keywords for meta tags used by search engines
 keywords: "workshops, websites, gh-pages, jekyll"
 # image for meta tags, will appear when sharing link on social media
-featured-image: "/images/uidaho-workshop.jpg"
+featured-image: "/images/university-drive.jpg"
 
 # author name, displayed in credits
-author: evanwill
+author: Griffith University Library
 # year or date published, displayed in sidebar
 publication_year: 2022
 # location of code, the full url to your github repository
@@ -82,6 +82,6 @@ defaults:
     values:
       layout: "lesson-content"
 # ignore stuff
-exclude: [README.md, LICENSE, assets/lib/README.md]
+exclude: [README.md, CONTRIBUTING.md, LICENSE, assets/lib/README.md]
 # Build settings
 markdown: kramdown

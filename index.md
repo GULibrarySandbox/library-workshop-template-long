@@ -1,5 +1,5 @@
 ---
-title: Lesson Template
+title: Griffith Library Workshop Template
 layout: lesson-content
 ---
 
