@@ -3,7 +3,7 @@
 <div class="my-4 mx-5">
     <h2>Credits</h2>
 
-    <p>Citation:
+    <p><strong>Citation:</strong>
         <code> 
         "{{ site.title }}", 
         {% if site.author %}{{ site.author }},{% endif %}
@@ -13,7 +13,7 @@
     </p>
 
     <p>
-        Content:
+        <strong>Content:</strong>
         {% if site.content_license_link %}<a href="{{ site.content_license_link }}">{{ site.content_license }}</a>
         {% elsif site.content_license %}{{ site.content_license }}{% endif %} 
         {% if site.publication_year %}{{ site.publication_year }}{% endif %}
@@ -22,6 +22,10 @@
     </p>
 
     <p>
-        Theme: <a href="https://github.com/learn-static/lesson-template" target="_blank" rel="noopener">lesson-template</a> by <a href="https://github.com/learn-static" target="_blank" rel="noopener">Learn-Static</a> is built using <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>. The site is styled using <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a>.
+        <strong>Theme:</strong> <a href="https://github.com/learn-static/lesson-template" target="_blank" rel="noopener">lesson-template</a> by <a href="https://github.com/learn-static" target="_blank" rel="noopener">Learn-Static</a> is built using <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>. The site is styled using <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a>.
+    </p>
+
+    <p>
+        <strong>Contributors:</strong> {% include_relative /CONTRIBUTING.md %}
     </p>
 </div>
