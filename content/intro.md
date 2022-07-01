@@ -3,6 +3,36 @@ nav_order: 1
 title: Introduction
 ---
 
+## Topic and aims
+
+Place the topic of your workshop here, for example: LimeSurvey, Digital Dexterity, Copyright for researchers, etc.
+
+| Learning Objectives |
+| -----|
+|Once you have completed this workshop you should be able to: |
+| - Identify the most common sources of GLAM archival text  |
+| - Verb a noun with the following limiting words  |
+{:.table}
+
+## Audience
+
+This workshop is aimed at researchers and academics in the field of biostatistics.
+
+## Prerequisites
+
+To successfully coplete this workshop you will need:
+
+
+- A modern browser
+- An installation of [OpenRefine](https://openrefine.org)
+
+## Assumed knowledge
+
+It is assumed that you have the following level of understanding:
+
+- Ability to install software on your own device
+- Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.
+
 Learn-Static Lesson Template is a Jekyll project to create a simple lesson or workshop website, with a [Bootstrap](https://getbootstrap.com/)-based theme, designed for hosting on [GitHub Pages](https://pages.github.com/).
 
 It features a sidebar navigation providing clear structure for step by step content.

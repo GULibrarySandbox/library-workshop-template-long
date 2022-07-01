@@ -4,6 +4,40 @@ Learn-Static Lesson Template is a minimal Jekyll theme with sidebar content nav 
 The sidebar nav supports pages nested into sections to help organize your lesson content. 
 The template provides Liquid includes to simplify adding Bootstrap components to your pages.
 
+{% capture aboutworkshop %}
+
+## Topic and aims
+
+Place the topic of your workshop here, for example: LimeSurvey, Digital Dexterity, Copyright for researchers, etc.
+
+Once you have completed this workshop you should be able to:
+
+- Explain the difference between copyright and academic integrity
+- Identify the most common sources of GLAM archival text
+- Verb a noun with the following limiting words
+
+## Audience
+
+This workshop is aimed at researchers and academics in the field of biostatistics.
+
+## Prerequisites
+
+To successfully coplete this workshop you will need: 
+
+- A modern browser
+- An installation of [OpenRefine](https://openrefine.org)
+
+## Assumed knowledge
+
+It is assumed that you have the following level of understanding:
+
+- Ability to install software on your own device
+- Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.
+
+{% endcapture %}
+
+{% include card.html header="About this workshop" text=aboutworkshop %}
+
 ## Creating Content
 
 Content follows these conventions:
