@@ -13,6 +13,8 @@ This workshop is aimed at researchers and academics in the field of biostatistic
 
 ## Learning objectives
 
+{% capture learningobjectives %}
+
 | Once you have completed this workshop you should be able to: |
 | -----|
 | Explain the difference between copyright and academic integrity  |
@@ -20,7 +22,12 @@ This workshop is aimed at researchers and academics in the field of biostatistic
 | Verb a noun with the following limiting words  |
 {:.table}
 
+{% endcapture %}
+{% include card.html header="Learning outcomes" text=learningobjectives %}
+
 ## Prerequisites
+
+{% capture requiredsoftware %}
 
 | You will need the following software to successfully complete this workshop: |
 | -----|
@@ -28,13 +35,19 @@ This workshop is aimed at researchers and academics in the field of biostatistic
 | An installation of [OpenRefine](https://openrefine.org)  |
 {:.table}
 
-## Assumed knowledge
+{% endcapture %}
+{% include card.html header="Required software" text=requiredsoftware %}
+
+{% capture assumedknowledge %}
 
 | It is assumed that you have the following level of understanding: |
 | -----|
 | Ability to install software on your own device |
 | Foundational data terminology such as tabular data, binary data, csv, tables, fields etc.  |
 {:.table}
+
+{% endcapture %}
+{% include card.html header="Assumed knowledge" text=text %}
 
 ----
 
